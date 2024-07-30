@@ -29,7 +29,7 @@ export async function DashBoard({ GettingDashBoard }: any) {
                     })
                 ) :
                     <div className="w-full h-fit">
-                        <h1 className="font-blod animate-pulse text-center pt-24">Can't find Your Blogs</h1>
+                        <h1 className="font-blod animate-pulse text-center pt-24">Can&apos;t find Your Blogs</h1>
                     </div>
             }
         </div>
