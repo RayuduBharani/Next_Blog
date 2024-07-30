@@ -19,7 +19,7 @@ export default function SignIn() {
         <div className='w-[30%] h-[60%] border-2 border-neutral-300 bg-card  px-5 rounded-lg shadow-inner max-lg:w-[50%] max-md:w-[60%] max-sm:w-[89%]'>
           <h1 className='font-bold text-center text-xl pt-8'>Sign In</h1>
           <SignInForm/>
-          <p className='font-semibold mt-5 text-center'>Don't have an accoount ?<Link href={"/sign-up"} className='text-blue-600'> Register Now</Link></p>
+          <p className='font-semibold mt-5 text-center'>Don&apos;t have an accoount ?<Link href={"/sign-up"} className='text-blue-600'> Register Now</Link></p>
         </div>
       </div>
     </div>
