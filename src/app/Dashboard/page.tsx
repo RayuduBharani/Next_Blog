@@ -15,7 +15,7 @@ async function DashboardPage() {
 
   return (
     <>
-      <Tabs defaultValue='DashBoard' className='w-full h-full flex flex-col mt-[75px] px-40'>
+      <Tabs defaultValue='DashBoard' className='w-full h-full flex flex-col mt-[75px] px-40 max-sm:px-5'>
         <TabsList className="flex h-[50px]">
           <TabsTrigger value="DashBoard">
             <div className='flex items-center gap-2'>

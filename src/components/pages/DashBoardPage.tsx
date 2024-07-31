@@ -11,11 +11,11 @@ export async function DashBoard({ GettingDashBoard }: any) {
                 GettingDashBoard?.data.length > 0 ? (
                     GettingDashBoard?.data.map((blog: any, index: number) => {
                         return (
-                            <div key={index} className="w-full h-[210px] p-4 flex gap-2">
-                                <div className="w-[22%] bg-background h-full rounded-xl bg-contain overflow-hidden">
+                            <div key={index} className="w-full h-[210px] p-4 flex gap-2 max-sm:flex-col max-sm:h-fit max-sm:gap-0">
+                                <div className="w-[22%] bg-background h-full rounded-xl bg-contain overflow-hidden max-sm:w-fit max-sm:rounded-none">
                                     <img className="w-full h-full " src={blog.image} alt="" />
                                 </div>
-                                <div className="w-[77%] bg-background h-full rounded-xl p-4">
+                                <div className="w-[77%] bg-background h-full rounded-xl p-4 max-sm:w-full max-sm:rounded-none">
                                     <p className="font-bold truncate text-lg">{blog.title}  <span className="font-normal text-sm text-blue-600"> ({blog.category})</span> </p>
                                     <p className='w-full h-[68px] text-sm text-neutral-500 pt-1 overflow-hidden'>{blog.content}</p>
                                     <div className="w-full flex justify-around pt-5">
